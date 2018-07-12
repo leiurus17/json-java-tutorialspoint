@@ -14,11 +14,11 @@ public class JsonEncodeDemo {
 		obj.put("is_vip", new Boolean(true));
 
 		JSONArray obj_arr = new JSONArray();
-		obj_arr.add("Par");
-		obj_arr.add("Talon");
-		obj_arr.add("Una");
+		obj_arr.add("One");
+		obj_arr.add("Two");
+		obj_arr.add("Three");
 		
-		obj.put("jones", obj_arr);
+		obj.put("Numbers", obj_arr);
 		
 		System.out.println(obj);
 	}
