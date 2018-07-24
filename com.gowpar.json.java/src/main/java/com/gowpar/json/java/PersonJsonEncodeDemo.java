@@ -10,6 +10,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class PersonJsonEncodeDemo {
 
 	public static void main(String[] args) {
+		
+		// https://www.mkyong.com/java/jackson-2-convert-java-object-to-from-json/
 
 		Person person = new Person();
 
@@ -38,7 +40,5 @@ public class PersonJsonEncodeDemo {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }
